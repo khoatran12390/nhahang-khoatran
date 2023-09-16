@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+main{ min-height: 500px}
+.circle
+{ width: 50px; height: 50px; background: #fff; box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  border-radius:50%;text-align: center; line-height: 50px;font-size: 1.2rem;color: #000;border:none
+}
+.ke
+{ position: absolute; right: 13%; top: 13%;width: 2px; height: 75%;background: #ddd}
+@media (max-width:1000px){.ke{ right: 8%;}}	
+@media (max-width:600px){.ke{ right:13%;}}
+
+.navbar .form-inline
+{ 
+	background: #fff; border: 1px solid #ddd;
+	box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+	border-radius: 10px;
+	position: relative;
+	display: flex
+}
+.navbar .form-inline .btn{ position: absolute; right: 5px}
+.navbar .form-control { border: none; background: transparent; width:95%}
+.navbar .badge { position:absolute; padding:5px 7px; border-radius: 50%; font-size: 0.9rem}
+.bg-2mau-1{background: url("../img/bg-section1.jpg")repeat-y;background-position: center top;}
+@media (max-width:992px){.bg-2mau-1{background-position: 35% top;}}
+@media (max-width:768px){.bg-2mau-1{background-position: 50% top;}}
+.bg-2mau-2{background: url("../img/bg-section2.jpg")repeat-y;background-position: center top;}
+@media (max-width:992px){.bg-2mau-2{background-position: 55% top;}}
+@media (max-width:768px){.bg-2mau-2{background-position: 80% top;}}
+
+.text-gachngang{text-decoration: line-through;}
+.page-tiltle{ background: url("../img/bg-page.png") no-repeat right top 100%; min-height: 500px; background-position: 20% top;}
+@media (max-width:992px){.page-tiltle{background-position: 60% top;}}
+@media (max-width:768px){.page-tiltle{background-position: 60% top;}}
+.page-tiltle-2{ background: url("../img/qc2.png") no-repeat right top 100%; min-height: 700px;background-position: 80% top;}
+.botron{border-radius:20px}
+.cam{color: #FF8E28}
+.pt-10{padding-top:150px}
+.pt-12{padding-top:120px}
+.page-tiltle-3{ background: url("../img/qc3.png") no-repeat right top 100%; min-height: 700px;background-position: 80% top;}
+@media (max-width:992px){.page-tiltle-3{background: url("../img/minibg.png") repeat right top 100%; min-height: 800px; }}
+@media (max-width:768px){.page-tiltle-3{background: url("../img/minibg.png") repeat right top 100%; min-height: 800px;}}
+.text-form-contact{background:#FAF7F2; border-radius: 10px;border: none; padding: 1.5rem; max-width: 100%}
+.post{height: 80px;width: 80px;background:#FAF7F2; border-radius: 10px; }
+.tag-link{background: #FAF7F2; color:#8D8D8D; padding: 0.5rem; font-size: 0.8rem;line-height:2.5rem; border-radius: 10px;}
+.bg-menu1{background:#fff; width: 70%;height:100%;border-radius: 10px;position: absolute;}
+/**/
+.form-menu3{width: 100%; height: 10px;}
+.form-menu2{position: absolute; right: 65%;height: 100%;}
+.text-form-menu{background: none; border: 0.5px solid #8D8D8D; padding: 2rem; max-width: 100%}
+.card-blog{background: #fff; border-radius: 10px; margin: 0; max-width: 100%}
+.author{width: 30px;height: 30px;}
+.form-blog{background: #FAF7F2; border: none; border-radius: 10px;padding: 1rem;}
